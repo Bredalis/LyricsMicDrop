@@ -3,9 +3,20 @@
 	text-align: center;
 }
 
+@font-face {
+	font-family: "CloudyBright";
+	src: url("../Fuentes/CloudyBright.otf") format("opentype");
+}
+
+body {
+	font-family: "CloudyBright";
+	background: #F4D03F;
+}
+
 h1 {
 	font-size: 60px;
 	margin-top: 60px;
+	color: red;	
 }
 
 img {
@@ -15,6 +26,10 @@ img {
 
 h2 {
 	font-size: 40px;
+}
+
+span {
+	color: red;
 }
 
 a {
